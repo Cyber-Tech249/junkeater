@@ -48,12 +48,12 @@ echo -e "$red $red"
 read opti
 if [ $opti == 1 ];
 then
-	cd $HOME/deleter/lol
+	cd $HOME/junkeater/deleter/lol
 	bash bulk.sh
 
 elif [ $opti == 2 ];
 then
-	cd $HOME/deleter/lol
+	cd $HOME/junkeater/deleter/lol
 	bash single.sh
 else
 	echo -e "$red Invalid Option...!! $red"
